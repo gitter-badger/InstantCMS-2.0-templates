@@ -1,0 +1,21 @@
+{
+  "name": "globiks",
+  "version": "1.0.0",
+  "description": "Шаблоны для InstantCMS 2.0",
+  "main": "index.php",
+  "repository": {
+    "type": "git",
+    "url": "git+https://globiks:23502350a@github.com/globiks/InstantCMS-2.0-templates.git"
+  },
+  "keywords": [
+    "instantcms",
+    "inastantcms",
+    "template"
+  ],
+  "author": "globiks & group (Mitus M.)",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/globiks/InstantCMS-2.0-templates/issues"
+  },
+  "homepage": "https://github.com/globiks/InstantCMS-2.0-templates#readme"
+}
