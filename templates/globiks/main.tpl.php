@@ -35,15 +35,15 @@
         <?php } ?>
 
         <header>
-            <div id="logo"><a href="<?php echo href_to_home(); ?>"></a></div>
-            <?php $this->widgets('header', false, 'wrapper_plain'); ?>
-        </header>
-
         <?php if($this->hasWidgetsOn('top')) { ?>
             <nav>
                 <?php $this->widgets('top', false, 'wrapper_plain'); ?>
             </nav>
         <?php } ?>
+            <div id="logo"><a href="<?php echo href_to_home(); ?>"></a></div>
+            <?php $this->widgets('header', false, 'wrapper_plain'); ?>
+        </header>
+
 
         <div id="body">
 
