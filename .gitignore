@@ -4,3 +4,8 @@
 /bower_components/
 /node_modules/
 /instantcms_20150331_v2.2.1.tgz
+/cache/content/
+/cache/menu/
+/cache/users/
+/cache/widgets/
+/cache/events.dat

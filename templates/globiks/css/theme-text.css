@@ -1,8 +1,10 @@
+/*
 body {
     font-family: 'Trebuchet MS', sans-serif;
     font-size: 14px;
     color:#444;
 }
+*/
 
 a, a.ajaxlink { color: #2980b9; }
 a:hover, a.ajaxlink:hover { color: #d35400; }

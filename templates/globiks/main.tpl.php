@@ -14,6 +14,7 @@
     <?php $this->addMainCSS("templates/{$this->name}/css/theme-widgets.css"); ?>
     <?php $this->addMainCSS("templates/{$this->name}/css/theme-content.css"); ?>
     <?php $this->addMainCSS("templates/{$this->name}/css/theme-modal.css"); ?>
+    <?php $this->addMainCSS("templates/{$this->name}/css/bootstrap.css"); ?>
     <?php $this->addMainJS("templates/{$this->name}/js/jquery.js"); ?>
     <?php $this->addMainJS("templates/{$this->name}/js/jquery-modal.js"); ?>
     <?php $this->addMainJS("templates/{$this->name}/js/core.js"); ?>
@@ -27,22 +28,30 @@
     <style><?php include('options.css.php'); ?></style>
 </head>
 <body>
-
-    <div id="layout">
-
         <?php if (!$config->is_site_on){ ?>
             <div id="site_off_notice"><?php printf(ERR_SITE_OFFLINE_FULL, href_to('admin', 'settings', 'siteon')); ?></div>
         <?php } ?>
 
-        <header>
+        <header role="banner">
+  <div class="site-logo image-logo">
+						<a rel="home" href="<?php echo href_to_home(); ?>"><img alt="logo" src="http://preview.ait-themes.club/theme/eventguide/wp-content/themes/eventguide/design/img/logo.png"></a>
+</div>        
+       <!-- MENU -->     
         <?php if($this->hasWidgetsOn('top')) { ?>
-            <nav>
-                <?php $this->widgets('top', false, 'wrapper_plain'); ?>
-            </nav>
+                         <nav>
+                            <div class="container-fluid">
+                                <?php $this->widgets('top', false, 'wrapper_plain'); ?>
+                            </div>
+                        </nav>                      
+           
         <?php } ?>
-            <div id="logo"><a href="<?php echo href_to_home(); ?>"></a></div>
+       <!-- MENU CANSEL -->   
             <?php $this->widgets('header', false, 'wrapper_plain'); ?>
         </header>
+        <section class="slder">
+            
+        </section>   
+    <div class="container">
 
 
         <div id="body">
@@ -143,6 +152,5 @@
         </footer>
 
     </div>
-
 </body>
 </html>

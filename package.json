@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/globiks/InstantCMS-2.0-templates/issues"
   },
-  "homepage": "https://github.com/globiks/InstantCMS-2.0-templates#readme"
+  "homepage": "https://github.com/globiks/InstantCMS-2.0-templates#readme",
+  "dependencies": {
+    "bootstrap": "^3.3.6"
+  }
 }

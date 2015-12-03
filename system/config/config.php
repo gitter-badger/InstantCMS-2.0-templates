@@ -26,7 +26,7 @@ return array(
 	'ct_autoload'			=> 'frontpage',
 	'ct_default'			=> 'content',
 	'frontpage'				=> 'none',
-	'debug'					=> '1',
+	'debug'					=> '',
 	'emulate_lag'			=> '',
 	'cache_enabled'			=> '',
 	'cache_method'			=> 'files',
